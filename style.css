@@ -67,7 +67,7 @@ a:hover { color:yellow; text-decoration: none;}
 .goup {
     width:0;
     height:0;
-    border:50px solid transparent;
+    border:40px solid transparent;
     border-bottom-color: orange;  
     border-top: 0;
     display:inline-block;
