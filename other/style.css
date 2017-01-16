@@ -37,7 +37,11 @@ body {
     border-color:yellow;
     color:yellow;
 }
-p {
+.sel {
+    color:yellow;
+    border-color:yellow;
+}
+p,li {
     font-size:1.29em;
 }
 .image {
@@ -66,14 +70,17 @@ a:hover { color:yellow; text-decoration: none;}
 }
 @media (max-width:1100px) {
     .image {width:40%;}
-    p,.up {font-size:0.9em;}
+    p,.up,li {font-size:0.9em;}
     .button, h1 {font-size:1.4em;}
 }
 @media (max-width:880px) {
     .button,h1 {font-size:0.9em}
-    p { font-size:0.5em}
+    p,li { font-size:0.5em}
 }
 @media (max-width:600px) {.button,h1 { font-size:0.5em;}}
+sel:hover {
+    cursor: default;
+}
 .goup {
     width:0;
     height:0;
@@ -86,4 +93,6 @@ a:hover { color:yellow; text-decoration: none;}
     left:2%;
     opacity:0.5;
 }
-
+.okay {
+    margin-bottom:1e5px;
+}
