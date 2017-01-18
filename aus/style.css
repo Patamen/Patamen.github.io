@@ -88,7 +88,7 @@ sel:hover {
 }
 @media (max-width:1100px) {
     .image {width:40%;}
-    p,.up,li {font-size:0.9em;}
+    p,.up,li {font-size:1.1em;}
     .button, h1 {font-size:1.4em;}
     .goup {width:0;
     height:0;
@@ -100,10 +100,11 @@ sel:hover {
     bottom:2%;
     left:2%;
     opacity:0.5;}
+    
 }
 @media (max-width:880px) {
-    .button,h1 {font-size:0.9em}
-    p,li { font-size:0.5em}
+    .button,h1 {font-size:1em}
+    p,li { font-size:1em}
     .goup { width:0;
     height:0;
     border:25px solid transparent;
@@ -114,11 +115,18 @@ sel:hover {
     bottom:2%;
     left:2%;
     opacity:0.5;}
+    .main {margin-left: 10%;
+    margin-right:10%}
 }
-@media (max-width:600px) {.button,h1 { font-size:0.5em;} }
+@media (max-width:600px) {.button,h1 { font-size:0.9em;} }
 @media (orientation:portrait) {
     .goup {
         bottom:10%;
         left:2%;
+        
     }
+}
+
+::-webkit-scrollbar {
+    display:none;
 }
