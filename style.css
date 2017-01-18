@@ -1,5 +1,5 @@
 @font-face {
-    font-family : Undertale;
+    font-family : Undertale; 
     src : url(undertale.ttf)
 }
 
@@ -79,7 +79,7 @@ a:hover { color:yellow; text-decoration: none;}
 
 @media (max-width:1100px) {
     .image {width:40%;}
-    p,.up,li {font-size:0.9em;}
+    p,.up,li {font-size:1.1em;}
     .button, h1 {font-size:1.4em;}
     .goup {width:0;
     height:0;
@@ -93,8 +93,8 @@ a:hover { color:yellow; text-decoration: none;}
     opacity:0.5;}
 }
 @media (max-width:880px) {
-    .button,h1 {font-size:0.9em}
-    p,li { font-size:0.5em}
+    .button,h1 {font-size:1em}
+    p,li { font-size:0.9em}
     .goup { width:0;
     height:0;
     border:25px solid transparent;
@@ -106,7 +106,7 @@ a:hover { color:yellow; text-decoration: none;}
     left:2%;
     opacity:0.5;}
 }
-@media (max-width:600px) {.button,h1 { font-size:0.5em;} }
+@media (max-width:600px) {.button,h1 { font-size:0.8em;} }
 @media (orientation:portrait) {
     .goup {
         bottom:10%;
