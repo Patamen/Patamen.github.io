@@ -104,7 +104,7 @@ sel:hover {
     
 }
 @media (max-width:880px) {
-    .button,h1 {font-size:1em}
+    .button,h1 {font-size:0.7em}
     p,li { font-size:1em}
     .goup { width:0;
     height:0;
