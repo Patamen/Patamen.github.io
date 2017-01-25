@@ -80,7 +80,7 @@ a:hover { color:yellow; text-decoration: none;}
 @media (max-width:1100px) {
     .image {width:40%;}
     p,.up,li {font-size:1.1em;}
-    .button, h1 {font-size:1.4em;}
+    .button, h1 {font-size:1.2em;}
     .goup {width:0;
     height:0;
     border:30px solid transparent;
@@ -109,7 +109,7 @@ a:hover { color:yellow; text-decoration: none;}
     .main {margin-left: 10%;
     margin-right:10%}
 }
-@media (max-width:600px) {.button,h1 { font-size:0.9em;} }
+@media (max-width:600px) {.button,h1 { font-size:0.7em;} }
 @media (orientation:portrait) {
     .goup {
         bottom:10%;
